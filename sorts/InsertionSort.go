@@ -1,14 +1,14 @@
-package main
+package sorts
 
 import "fmt"
 
-func main() {
+func InsertionSort() {
 	var numbers = []int{5, 4, 1, 2, 3, 7, 110, 120, 145, 6, -1, 8, 121, 100, 80,73,10009}
 
-	fmt.Println(fmt.Sprintf("%v",insertionSort(numbers)))
+	fmt.Println(fmt.Sprintf("%v",sort(numbers)))
 }
 
-func insertionSort(numbers []int) []int {
+func sort(numbers []int) []int {
 	for i := 1; i < len(numbers); i++ {
 
 		key := i

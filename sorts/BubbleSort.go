@@ -1,8 +1,8 @@
-package main
+package sorts
 
 import "fmt"
 
-func main() {
+func BubbleSort() {
 
 	var numbers = []int{5, 4, 1, 2, 3, 7, 110, 120, 145, 6, -1, 8, 121, 100, 80, 73, 10009, -2}
 
